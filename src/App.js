@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import './App.css';
+import MainSlider from './component/MainSlider';
+
+
 
 const DB = [
   {
@@ -63,6 +66,7 @@ function App() {
           }
         </ul>
       </nav>
+      <MainSlider />
       {/* {
         TEXT && <DoubleText />
       } */}
